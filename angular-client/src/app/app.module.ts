@@ -4,21 +4,21 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { LoginComponent } from './components/login/login.component';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 
 import { AuthService } from './services/auth.service';
-import { RegisterComponent } from './components/register/register.component';
+
 
 @NgModule({ 
   declarations: [
     AppComponent,
-    LoginComponent,
-    RegisterComponent
+    routingComponents
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [
     AuthService

@@ -8,7 +8,7 @@
     margin: 0 auto;
     max-width: 500px;
     padding: 20px 40px;
-    color: #ccc;
+    color: #aaa;
     text-shadow: none;
 }
 
@@ -24,7 +24,6 @@
 .login-button {
     margin: 0px auto;
     max-width: 200px;
-    ;
 }
 
 .form-header {
